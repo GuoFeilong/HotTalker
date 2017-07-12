@@ -20,6 +20,6 @@ public class MainActivity extends BaseActivity {
     protected void initWidget() {
         super.initWidget();
         test.setTextColor(ContextCompat.getColor(this, R.color.yellow_a700));
-        test.setText("试试框架");
+        test.setText("公司测试提交");
     }
 }
