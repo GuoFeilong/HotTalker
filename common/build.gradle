@@ -45,4 +45,7 @@ dependencies {
     compile "net.qiujuer.lame:lame:$rootProject.ext.lameVersion"
 
     annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.ext.butterknifeVersion"
+
+    compile project(':lang')
+    compile project(':face-res')
 }
